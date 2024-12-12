@@ -5,7 +5,7 @@ void main() {
   runApp(const ShopWowApp(
     config: AppConfig(
       env: AppEnv.dev,
-      baseApiUrl: 'http://192.168.1.128:8080'
+      baseApiUrl: 'http://192.168.0.69:8080'
     ),
   ));
 }
